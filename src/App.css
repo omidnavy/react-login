@@ -1,0 +1,824 @@
+.l6xt {
+    display: flex;
+    height: 100vh;
+    font-family: Segoe UI Web, Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
+}
+.l6xt a{
+    text-decoration: none;
+    color: inherit;
+}
+.l6xt a:not(:first-child){
+    margin: 10px;
+}
+
+.l6xt-left {
+    background-color: #2f2f2f;
+    color: #fdfcfc;
+    flex: 2;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.l6xt-header {
+    flex: 1 1 0;
+}
+
+.l6xt-content {
+    flex: 3 1 0;
+}
+
+.l6xt-content h1 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.l6xt-content h4 {
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 33px;
+}
+
+.l6xt-content p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.l6xt-footer {
+    flex: 0 1 0;
+    font-size: 12px;
+}
+
+.l6xt-right{
+    background-color: #6c789c;
+    flex: 1;
+    min-width: 444px;
+    color: #fdfcfc;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.l6xt-right input{
+    background-color: #6c789c;
+    color: #fdfcfc;
+    width:100%;
+    height:20px;
+    box-shadow: none;
+    outline: 0;
+    text-overflow: ellipsis;
+    border: none;
+    border-bottom: 1px solid;
+    border-bottom-color: #fdfcfc;
+    touch-action: manipulation;
+    transition: border-bottom-color 151ms;
+    -webkit-transition: border-bottom-color 151ms; /* Safari */
+
+}
+.l6xt-right input:hover{
+    border-bottom-color: #8b9bc9;
+}
+.l6xt-right input:focus{
+    border-bottom-color: #42485f;
+}
+.l6xt-right ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #bcc1d2;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #bcc1d2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #bcc1d2;
+}
+
+.ms-bgColor-themeDark, .ms-bgColor-themeDark--hover:hover {
+    background-color: #005a9e
+}
+
+.ms-bgColor-themeDarkAlt, .ms-bgColor-themeDarkAlt--hover:hover {
+    background-color: #106ebe
+}
+
+.ms-bgColor-themeDarker, .ms-bgColor-themeDarker--hover:hover {
+    background-color: #004578
+}
+
+.ms-bgColor-themePrimary, .ms-bgColor-themePrimary--hover:hover {
+    background-color: #0078d7
+}
+
+.ms-bgColor-themeSecondary, .ms-bgColor-themeSecondary--hover:hover {
+    background-color: #2b88d8
+}
+
+.ms-bgColor-themeTertiary, .ms-bgColor-themeTertiary--hover:hover {
+    background-color: #71afe5
+}
+
+.ms-bgColor-themeLight, .ms-bgColor-themeLight--hover:hover {
+    background-color: #c7e0f4
+}
+
+.ms-bgColor-themeLighter, .ms-bgColor-themeLighter--hover:hover {
+    background-color: #deecf9
+}
+
+.ms-bgColor-themeLighterAlt, .ms-bgColor-themeLighterAlt--hover:hover {
+    background-color: #eff6fc
+}
+
+.ms-bgColor-black, .ms-bgColor-black--hover:hover {
+    background-color: #000
+}
+
+.ms-bgColor-neutralDark, .ms-bgColor-neutralDark--hover:hover {
+    background-color: #212121
+}
+
+.ms-bgColor-neutralPrimary, .ms-bgColor-neutralPrimary--hover:hover {
+    background-color: #333
+}
+
+.ms-bgColor-neutralPrimaryAlt, .ms-bgColor-neutralPrimaryAlt--hover:hover {
+    background-color: #3c3c3c
+}
+
+.ms-bgColor-neutralSecondary, .ms-bgColor-neutralSecondary--hover:hover {
+    background-color: #666
+}
+
+.ms-bgColor-neutralSecondaryAlt, .ms-bgColor-neutralSecondaryAlt--hover:hover {
+    background-color: #767676
+}
+
+.ms-bgColor-neutralTertiary, .ms-bgColor-neutralTertiary--hover:hover {
+    background-color: #a6a6a6
+}
+
+.ms-bgColor-neutralTertiaryAlt, .ms-bgColor-neutralTertiaryAlt--hover:hover {
+    background-color: #c8c8c8
+}
+
+.ms-bgColor-neutralLight, .ms-bgColor-neutralLight--hover:hover {
+    background-color: #eaeaea
+}
+
+.ms-bgColor-neutralLighter, .ms-bgColor-neutralLighter--hover:hover {
+    background-color: #f4f4f4
+}
+
+.ms-bgColor-neutralLighterAlt, .ms-bgColor-neutralLighterAlt--hover:hover {
+    background-color: #f8f8f8
+}
+
+.ms-bgColor-white, .ms-bgColor-white--hover:hover {
+    background-color: #fff
+}
+
+.ms-bgColor-yellow, .ms-bgColor-yellow--hover:hover {
+    background-color: #ffb900
+}
+
+.ms-bgColor-yellowLight, .ms-bgColor-yellowLight--hover:hover {
+    background-color: #fff100
+}
+
+.ms-bgColor-orange, .ms-bgColor-orange--hover:hover {
+    background-color: #d83b01
+}
+
+.ms-bgColor-orangeLight, .ms-bgColor-orangeLight--hover:hover {
+    background-color: #ea4300
+}
+
+.ms-bgColor-orangeLighter, .ms-bgColor-orangeLighter--hover:hover {
+    background-color: #ff8c00
+}
+
+.ms-bgColor-redDark, .ms-bgColor-redDark--hover:hover {
+    background-color: #a80000
+}
+
+.ms-bgColor-red, .ms-bgColor-red--hover:hover {
+    background-color: #e81123
+}
+
+.ms-bgColor-magentaDark, .ms-bgColor-magentaDark--hover:hover {
+    background-color: #5c005c
+}
+
+.ms-bgColor-magenta, .ms-bgColor-magenta--hover:hover {
+    background-color: #b4009e
+}
+
+.ms-bgColor-magentaLight, .ms-bgColor-magentaLight--hover:hover {
+    background-color: #e3008c
+}
+
+.ms-bgColor-purpleDark, .ms-bgColor-purpleDark--hover:hover {
+    background-color: #32145a
+}
+
+.ms-bgColor-purple, .ms-bgColor-purple--hover:hover {
+    background-color: #5c2d91
+}
+
+.ms-bgColor-purpleLight, .ms-bgColor-purpleLight--hover:hover {
+    background-color: #b4a0ff
+}
+
+.ms-bgColor-blueDark, .ms-bgColor-blueDark--hover:hover {
+    background-color: #002050
+}
+
+.ms-bgColor-blueMid, .ms-bgColor-blueMid--hover:hover {
+    background-color: #00188f
+}
+
+.ms-bgColor-blue, .ms-bgColor-blue--hover:hover {
+    background-color: #0078d7
+}
+
+.ms-bgColor-blueLight, .ms-bgColor-blueLight--hover:hover {
+    background-color: #00bcf2
+}
+
+.ms-bgColor-tealDark, .ms-bgColor-tealDark--hover:hover {
+    background-color: #004b50
+}
+
+.ms-bgColor-teal, .ms-bgColor-teal--hover:hover {
+    background-color: #008272
+}
+
+.ms-bgColor-tealLight, .ms-bgColor-tealLight--hover:hover {
+    background-color: #00b294
+}
+
+.ms-bgColor-greenDark, .ms-bgColor-greenDark--hover:hover {
+    background-color: #004b1c
+}
+
+.ms-bgColor-green, .ms-bgColor-green--hover:hover {
+    background-color: #107c10
+}
+
+.ms-bgColor-greenLight, .ms-bgColor-greenLight--hover:hover {
+    background-color: #bad80a
+}
+
+.ms-bgColor-info, .ms-bgColor-info--hover:hover {
+    background-color: #f4f4f4
+}
+
+.ms-bgColor-success, .ms-bgColor-success--hover:hover {
+    background-color: #dff6dd
+}
+
+.ms-bgColor-severeWarning, .ms-bgColor-severeWarning--hover:hover {
+    background-color: #fed9cc
+}
+
+.ms-bgColor-warning, .ms-bgColor-warning--hover:hover {
+    background-color: #fff4ce
+}
+
+.ms-bgColor-error, .ms-bgColor-error--hover:hover {
+    background-color: #fde7e9
+}
+
+.ms-borderColor-themeDark, .ms-borderColor-themeDark--hover:hover {
+    border-color: #005a9e
+}
+
+.ms-borderColor-themeDarkAlt, .ms-borderColor-themeDarkAlt--hover:hover {
+    border-color: #106ebe
+}
+
+.ms-borderColor-themeDarker, .ms-borderColor-themeDarker--hover:hover {
+    border-color: #004578
+}
+
+.ms-borderColor-themePrimary, .ms-borderColor-themePrimary--hover:hover {
+    border-color: #0078d7
+}
+
+.ms-borderColor-themeSecondary, .ms-borderColor-themeSecondary--hover:hover {
+    border-color: #2b88d8
+}
+
+.ms-borderColor-themeTertiary, .ms-borderColor-themeTertiary--hover:hover {
+    border-color: #71afe5
+}
+
+.ms-borderColor-themeLight, .ms-borderColor-themeLight--hover:hover {
+    border-color: #c7e0f4
+}
+
+.ms-borderColor-themeLighter, .ms-borderColor-themeLighter--hover:hover {
+    border-color: #deecf9
+}
+
+.ms-borderColor-themeLighterAlt, .ms-borderColor-themeLighterAlt--hover:hover {
+    border-color: #eff6fc
+}
+
+.ms-borderColor-black, .ms-borderColor-black--hover:hover {
+    border-color: #000
+}
+
+.ms-borderColor-neutralDark, .ms-borderColor-neutralDark--hover:hover {
+    border-color: #212121
+}
+
+.ms-borderColor-neutralPrimary, .ms-borderColor-neutralPrimary--hover:hover {
+    border-color: #333
+}
+
+.ms-borderColor-neutralPrimaryAlt, .ms-borderColor-neutralPrimaryAlt--hover:hover {
+    border-color: #3c3c3c
+}
+
+.ms-borderColor-neutralSecondary, .ms-borderColor-neutralSecondary--hover:hover {
+    border-color: #666
+}
+
+.ms-borderColor-neutralSecondaryAlt, .ms-borderColor-neutralSecondaryAlt--hover:hover {
+    border-color: #767676
+}
+
+.ms-borderColor-neutralTertiary, .ms-borderColor-neutralTertiary--hover:hover {
+    border-color: #a6a6a6
+}
+
+.ms-borderColor-neutralTertiaryAlt, .ms-borderColor-neutralTertiaryAlt--hover:hover {
+    border-color: #c8c8c8
+}
+
+.ms-borderColor-neutralLight, .ms-borderColor-neutralLight--hover:hover {
+    border-color: #eaeaea
+}
+
+.ms-borderColor-neutralLighter, .ms-borderColor-neutralLighter--hover:hover {
+    border-color: #f4f4f4
+}
+
+.ms-borderColor-neutralLighterAlt, .ms-borderColor-neutralLighterAlt--hover:hover {
+    border-color: #f8f8f8
+}
+
+.ms-borderColor-white, .ms-borderColor-white--hover:hover {
+    border-color: #fff
+}
+
+.ms-borderColor-yellow, .ms-borderColor-yellow--hover:hover {
+    border-color: #ffb900
+}
+
+.ms-borderColor-yellowLight, .ms-borderColor-yellowLight--hover:hover {
+    border-color: #fff100
+}
+
+.ms-borderColor-orange, .ms-borderColor-orange--hover:hover {
+    border-color: #d83b01
+}
+
+.ms-borderColor-orangeLight, .ms-borderColor-orangeLight--hover:hover {
+    border-color: #ea4300
+}
+
+.ms-borderColor-orangeLighter, .ms-borderColor-orangeLighter--hover:hover {
+    border-color: #ff8c00
+}
+
+.ms-borderColor-redDark, .ms-borderColor-redDark--hover:hover {
+    border-color: #a80000
+}
+
+.ms-borderColor-red, .ms-borderColor-red--hover:hover {
+    border-color: #e81123
+}
+
+.ms-borderColor-magentaDark, .ms-borderColor-magentaDark--hover:hover {
+    border-color: #5c005c
+}
+
+.ms-borderColor-magenta, .ms-borderColor-magenta--hover:hover {
+    border-color: #b4009e
+}
+
+.ms-borderColor-magentaLight, .ms-borderColor-magentaLight--hover:hover {
+    border-color: #e3008c
+}
+
+.ms-borderColor-purpleDark, .ms-borderColor-purpleDark--hover:hover {
+    border-color: #32145a
+}
+
+.ms-borderColor-purple, .ms-borderColor-purple--hover:hover {
+    border-color: #5c2d91
+}
+
+.ms-borderColor-purpleLight, .ms-borderColor-purpleLight--hover:hover {
+    border-color: #b4a0ff
+}
+
+.ms-borderColor-blueDark, .ms-borderColor-blueDark--hover:hover {
+    border-color: #002050
+}
+
+.ms-borderColor-blueMid, .ms-borderColor-blueMid--hover:hover {
+    border-color: #00188f
+}
+
+.ms-borderColor-blue, .ms-borderColor-blue--hover:hover {
+    border-color: #0078d7
+}
+
+.ms-borderColor-blueLight, .ms-borderColor-blueLight--hover:hover {
+    border-color: #00bcf2
+}
+
+.ms-borderColor-tealDark, .ms-borderColor-tealDark--hover:hover {
+    border-color: #004b50
+}
+
+.ms-borderColor-teal, .ms-borderColor-teal--hover:hover {
+    border-color: #008272
+}
+
+.ms-borderColor-tealLight, .ms-borderColor-tealLight--hover:hover {
+    border-color: #00b294
+}
+
+.ms-borderColor-greenDark, .ms-borderColor-greenDark--hover:hover {
+    border-color: #004b1c
+}
+
+.ms-borderColor-green, .ms-borderColor-green--hover:hover {
+    border-color: #107c10
+}
+
+.ms-borderColor-greenLight, .ms-borderColor-greenLight--hover:hover {
+    border-color: #bad80a
+}
+
+@font-face {
+    font-family: Segoe UI Web;
+    src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff") format("woff");
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Segoe UI Web;
+    src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Segoe UI Web\ (Cyrillic);
+    src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Segoe UI Web;
+    src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Segoe UI Web;
+    src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-bold.woff2") format("woff2"), url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+.ms-font-su {
+    font-size: 42px;
+    font-weight: 100
+}
+
+.ms-font-xxl {
+    font-size: 28px;
+    font-weight: 100
+}
+
+.ms-font-xl-plus {
+    font-size: 24px;
+    font-weight: 100
+}
+
+.ms-font-xl {
+    font-size: 21px;
+    font-weight: 100
+}
+
+.ms-font-l {
+    font-size: 17px;
+    font-weight: 300
+}
+
+.ms-font-m-plus {
+    font-size: 15px;
+    font-weight: 400
+}
+
+.ms-font-m {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.ms-font-s-plus {
+    font-size: 13px;
+    font-weight: 400
+}
+
+.ms-font-s {
+    font-size: 12px;
+    font-weight: 400
+}
+
+.ms-font-xs {
+    font-size: 11px;
+    font-weight: 400
+}
+
+.ms-font-mi {
+    font-size: 10px;
+    font-weight: 600
+}
+
+.ms-fontWeight-light {
+    font-weight: 100
+}
+
+.ms-fontWeight-semilight {
+    font-weight: 300
+}
+
+.ms-fontWeight-regular {
+    font-weight: 400
+}
+
+.ms-fontWeight-semibold {
+    font-weight: 600
+}
+
+.ms-fontWeight-bold {
+    font-weight: 700
+}
+
+.ms-fontSize-su {
+    font-size: 42px
+}
+
+.ms-fontSize-xxl {
+    font-size: 28px
+}
+
+.ms-fontSize-xlPlus {
+    font-size: 24px
+}
+
+.ms-fontSize-xl {
+    font-size: 21px
+}
+
+.ms-fontSize-l {
+    font-size: 17px
+}
+
+.ms-fontSize-mPlus {
+    font-size: 15px
+}
+
+.ms-fontSize-m {
+    font-size: 14px
+}
+
+.ms-fontSize-sPlus {
+    font-size: 13px
+}
+
+.ms-fontSize-s {
+    font-size: 12px
+}
+
+.ms-fontSize-xs {
+    font-size: 11px
+}
+
+.ms-fontSize-mi {
+    font-size: 10px
+}
+
+.ms-fontColor-themeDarker, .ms-fontColor-themeDarker--hover:hover {
+    color: #004578
+}
+
+.ms-fontColor-themeDark, .ms-fontColor-themeDark--hover:hover {
+    color: #005a9e
+}
+
+.ms-fontColor-themeDarkAlt, .ms-fontColor-themeDarkAlt--hover:hover {
+    color: #106ebe
+}
+
+.ms-fontColor-themePrimary, .ms-fontColor-themePrimary--hover:hover {
+    color: #0078d7
+}
+
+.ms-fontColor-themeSecondary, .ms-fontColor-themeSecondary--hover:hover {
+    color: #2b88d8
+}
+
+.ms-fontColor-themeTertiary, .ms-fontColor-themeTertiary--hover:hover {
+    color: #71afe5
+}
+
+.ms-fontColor-themeLight, .ms-fontColor-themeLight--hover:hover {
+    color: #c7e0f4
+}
+
+.ms-fontColor-themeLighter, .ms-fontColor-themeLighter--hover:hover {
+    color: #deecf9
+}
+
+.ms-fontColor-themeLighterAlt, .ms-fontColor-themeLighterAlt--hover:hover {
+    color: #eff6fc
+}
+
+.ms-fontColor-black, .ms-fontColor-black--hover:hover {
+    color: #000
+}
+
+.ms-fontColor-neutralDark, .ms-fontColor-neutralDark--hover:hover {
+    color: #212121
+}
+
+.ms-fontColor-neutralPrimary, .ms-fontColor-neutralPrimary--hover:hover {
+    color: #333
+}
+
+.ms-fontColor-neutralPrimaryAlt, .ms-fontColor-neutralPrimaryAlt--hover:hover {
+    color: #3c3c3c
+}
+
+.ms-fontColor-neutralSecondary, .ms-fontColor-neutralSecondary--hover:hover {
+    color: #666
+}
+
+.ms-fontColor-neutralSecondaryAlt, .ms-fontColor-neutralSecondaryAlt--hover:hover {
+    color: #767676
+}
+
+.ms-fontColor-neutralTertiary, .ms-fontColor-neutralTertiary--hover:hover {
+    color: #a6a6a6
+}
+
+.ms-fontColor-neutralTertiaryAlt, .ms-fontColor-neutralTertiaryAlt--hover:hover {
+    color: #c8c8c8
+}
+
+.ms-fontColor-neutralLight, .ms-fontColor-neutralLight--hover:hover {
+    color: #eaeaea
+}
+
+.ms-fontColor-neutralLighter, .ms-fontColor-neutralLighter--hover:hover {
+    color: #f4f4f4
+}
+
+.ms-fontColor-neutralLighterAlt, .ms-fontColor-neutralLighterAlt--hover:hover {
+    color: #f8f8f8
+}
+
+.ms-fontColor-white, .ms-fontColor-white--hover:hover {
+    color: #fff
+}
+
+.ms-fontColor-yellow, .ms-fontColor-yellow--hover:hover {
+    color: #ffb900
+}
+
+.ms-fontColor-yellowLight, .ms-fontColor-yellowLight--hover:hover {
+    color: #fff100
+}
+
+.ms-fontColor-orange, .ms-fontColor-orange--hover:hover {
+    color: #d83b01
+}
+
+.ms-fontColor-orangeLight, .ms-fontColor-orangeLight--hover:hover {
+    color: #ea4300
+}
+
+.ms-fontColor-orangeLighter, .ms-fontColor-orangeLighter--hover:hover {
+    color: #ff8c00
+}
+
+.ms-fontColor-redDark, .ms-fontColor-redDark--hover:hover {
+    color: #a80000
+}
+
+.ms-fontColor-red, .ms-fontColor-red--hover:hover {
+    color: #e81123
+}
+
+.ms-fontColor-magentaDark, .ms-fontColor-magentaDark--hover:hover {
+    color: #5c005c
+}
+
+.ms-fontColor-magenta, .ms-fontColor-magenta--hover:hover {
+    color: #b4009e
+}
+
+.ms-fontColor-magentaLight, .ms-fontColor-magentaLight--hover:hover {
+    color: #e3008c
+}
+
+.ms-fontColor-purpleDark, .ms-fontColor-purpleDark--hover:hover {
+    color: #32145a
+}
+
+.ms-fontColor-purple, .ms-fontColor-purple--hover:hover {
+    color: #5c2d91
+}
+
+.ms-fontColor-purpleLight, .ms-fontColor-purpleLight--hover:hover {
+    color: #b4a0ff
+}
+
+.ms-fontColor-blueDark, .ms-fontColor-blueDark--hover:hover {
+    color: #002050
+}
+
+.ms-fontColor-blueMid, .ms-fontColor-blueMid--hover:hover {
+    color: #00188f
+}
+
+.ms-fontColor-blue, .ms-fontColor-blue--hover:hover {
+    color: #0078d7
+}
+
+.ms-fontColor-blueLight, .ms-fontColor-blueLight--hover:hover {
+    color: #00bcf2
+}
+
+.ms-fontColor-tealDark, .ms-fontColor-tealDark--hover:hover {
+    color: #004b50
+}
+
+.ms-fontColor-teal, .ms-fontColor-teal--hover:hover {
+    color: #008272
+}
+
+.ms-fontColor-tealLight, .ms-fontColor-tealLight--hover:hover {
+    color: #00b294
+}
+
+.ms-fontColor-greenDark, .ms-fontColor-greenDark--hover:hover {
+    color: #004b1c
+}
+
+.ms-fontColor-green, .ms-fontColor-green--hover:hover {
+    color: #107c10
+}
+
+.ms-fontColor-greenLight, .ms-fontColor-greenLight--hover:hover {
+    color: #bad80a
+}
+
+.ms-fontColor-info, .ms-fontColor-info--hover:hover {
+    color: #767676
+}
+
+.ms-fontColor-success, .ms-fontColor-success--hover:hover {
+    color: #107c10
+}
+
+.ms-fontColor-alert, .ms-fontColor-alert--hover:hover {
+    color: #d83b01
+}
+
+.ms-fontColor-warning, .ms-fontColor-warning--hover:hover {
+    color: #767676
+}
+
+.ms-fontColor-severeWarning, .ms-fontColor-severeWarning--hover:hover {
+    color: #d83b01
+}
+
+.ms-fontColor-error, .ms-fontColor-error--hover:hover {
+    color: #a80000
+}

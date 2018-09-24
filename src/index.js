@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App
+logo={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZsAAAAyCAMAAAC9IoZYAAAAaVBMVEVMaXH//v3//v7//v7//v7//v7//v7//v7//v7//v7//v7//v7//v7//v3//v3//v3//v7ZMTL//v3ZMzLdS0r//v7YMTLZMjL//v3ZMjLZNDLZMTLZMjLZMjLZMjLZMTP//v3//v3ZMTKO4BUwAAAAIHRSTlMA8fmShRi/mI8MWkAy5KaAcNCKGQd362DOi0mZuDhzqKF5LHIAAATESURBVHja7Zxrm3M6FIbVsXHWqkMpl/n/P/JFdLYIWYmh6PZ8mca1yOEWWclKRpJOnTp16uvkG1duKTZ1+z0u2r9xlmZZlqZp1qWLF2WLVAV4vmpqw5tsgfIZ1vsu0+in3leYeV99C9GtU5dYIcrkUVcA0UXhll4JyKLIZEHQ/ip/3sLpPCqL+5DNBXq+nBhDOqZI+R7vu4wm5fef44I3O7pnj7YOUWunuWILNPC1ueE2i00yn02Y9lgM2TQ/S5IO4spDdrXZbDyCxEOMTSPdGmkd4tpFlE37mlw/3G+eUY9FOcbm56cQ6zdYF3OTfoN13VG/EWLTb7S4YxG1qeCXDZnOZrAh3nhfpHzXv7Opkp2xcT2VSxqNJkhxMn0rbtNFTsNp2ci36bw8I6FeAnvErC1zMvIcC2CjM/K+6t2ro++LjbgbccctX76mLVJs8iTZXNjPtbv3m+kJ+WB1J9iYzLzDh0yOWrtgYwrfhrtFzLR59b5x/7FBkM9JvbyUvMbCmMHmAeStOYMX44hs7vRIPwknFmPTwbG3YCNpMukPHJFNz3tmqfXeckE2uEjeJmzw59I5NJucp9t0HScSZWNS7tLn2CCZ+KgdkU1AjvKTo2s7BQoF2djtJCfchM1gtnlYNi/YrmVzn8UGbcNGPzybiLPf/Mxm42zzTRu0/RHZvJ617rBdY/YU/abd2unwNmysdkkPHXp+M0ecbPBwbG7DRicnVyebkRIxzdZj4w1WjE42xGCDl9T8VdYFfJ527LvvO2DjaYhD/XEkrsUx3jRm8fR4ow3ytU23gpds5rNRGPXULM+h1vK2ZyMbTiWDcpf302qPjMjiNwSJVmKTTNdzNEi1g35j2zwxQfH5TQjNb8ajM4kmrcPG1GQwMm1J+2JjvldgP81GeoChxyXZeHA9dWl3bCSUiAQEl5t7DuORjgdvYvmLn4Z0ETg78dPCm8JWv6plUIuj3+SNHXvuid8J59FkoZpctf6bD61O1M/dZ9xzSx8a7yK4iFR3pflNaF6+Iu654Pym80Pszdl8Sdxz0bknDnRyLLStvy6AviDuKYW1OM1CcF1AraBo2sfW0x5fEPeManH4AkFjB8cIsLPm7oDN/yjuyRu/wY7tbXs2Z9yT1qUSKMcZ9wTZxKBZu1Uq4omtCTlrZ9yTpXZzUwmaFcRWKWaMQMRZW5ENfkcOHfd8EgMJ+5OWcrHpwlrJxmy+IO6JFzEjwI3OSYJAbA07a8ambL4i7omPETDd6Hs+OEgAxT2TinNMWCvuiQzOuKcmysb76LpAd4aj7KKf4f1XGMyzO0bQ61sQG8TrrM1mo2oMWd6Fckgm2FgaKJKNAt+AlmMTBsQ5tYlza8SYBO4X0DidtdlsqunQmjx6AGyCTQWG6GSNYAPfUClLrqfloyzINBFHgPdycDpr89kIHmicZANrwAaWsehaZwH2m4xrrVPYWVuRDXkQeGM2Ds/eoKnRvggY5z2DdOApIHLuwHDWEraRAW7FadtUpVeFgL0CrjXWOsTFSpQNb4cdWU30jVq2NFPhs3j/74e3unRKb5FC1zqrG7vZkdKUx2U7QlZjw+zrZmNhUVdYUlRfG28d4rJq8AlxZ9zpM3GaU6dOnTp16tQR9A9qJecsKGAdPQAAAABJRU5ErkJggg=="}
+h1={'Welcome'}
+h4={'Administration Console'}
+p={'FortiBill is a internet access and billing system to manage users internet usage by different parameters. It can be use as "Radius Server" for FortiGate and Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'}
+/>, document.getElementById('root'));
+registerServiceWorker();
