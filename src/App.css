@@ -3,11 +3,13 @@
     height: 100vh;
     font-family: Segoe UI Web, Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
 }
-.l6xt a{
+
+.l6xt a {
     text-decoration: none;
     color: inherit;
 }
-.l6xt a:not(:first-child){
+
+.l6xt a:not(:first-child) {
     margin: 10px;
 }
 
@@ -52,7 +54,7 @@
     font-size: 12px;
 }
 
-.l6xt-right{
+.l6xt-right {
     background-color: #6c789c;
     flex: 1;
     min-width: 444px;
@@ -62,11 +64,46 @@
     flex-direction: column;
 
 }
-.l6xt-right input{
+
+.l6xt-right input {
+    font-family: Segoe UI Web, Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.l6xt-right input[type='button'] {
+    font-weight: 600;
+    background-color: #fdfcfc;
+    border: 1px solid #b3b3b3;
+    color: #2f2f2f;
+    width: 100%;
+    box-shadow: none;
+    outline: 0;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    transition: all 151ms;
+    -webkit-transition: all 151ms; /* Safari */
+
+}
+
+.l6xt-right input[type='button']:hover {
+    background-color: #2f2f2f;
+    border-color: #060606;
+    color: #fdfcfc;
+    cursor: pointer;
+}
+
+.l6xt-right input[type='button']:focus {
+    background-color: #fdfcfc;
+    border-color: #b3b3b3;
+    color: #2f2f2f;
+    cursor: pointer;
+}
+
+.l6xt-right input[type='text'], .l6xt-right input[type = 'password'] {
     background-color: #6c789c;
     color: #fdfcfc;
-    width:100%;
-    height:20px;
+    width: calc(100% - 16px);
     box-shadow: none;
     outline: 0;
     text-overflow: ellipsis;
@@ -78,12 +115,15 @@
     -webkit-transition: border-bottom-color 151ms; /* Safari */
 
 }
-.l6xt-right input:hover{
-    border-bottom-color: #8b9bc9;
+
+.l6xt-right input[type='text']:hover, .l6xt-right input[type='password']:hover {
+    border-bottom-color: #2f2f2f;
 }
-.l6xt-right input:focus{
-    border-bottom-color: #42485f;
+
+.l6xt-right input[type='text']:focus, .l6xt-right input[type='password']:focus {
+    border-bottom-color: #060606;
 }
+
 .l6xt-right ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #bcc1d2;
     opacity: 1; /* Firefox */
